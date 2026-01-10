@@ -1,0 +1,98 @@
+.about-container {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Outfit', sans-serif;
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+  color: #ffffff;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.about-header h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  background: linear-gradient(270deg, #DF8908 0%, #B415FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-underline {
+  width: 120px;
+  height: 4px;
+  margin: 10px auto 0;
+  background: linear-gradient(270deg, #DF8908 0%, #B415FF 100%);
+  border-radius: 2px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.about-image img {
+  width: 280px;
+  height: 320px;
+  border-radius: 25px;
+  object-fit: cover;
+  box-shadow: 0 10px 25px rgba(255, 0, 200, 0.15);
+}
+
+.about-details {
+  flex: 1;
+  max-width: 650px;
+}
+
+.about-details p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: #e0e0e0;
+}
+
+/* SKILLS */
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.skill-name {
+  min-width: 150px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.skill-bar {
+  flex: 1;
+  height: 8px;
+  background: #2a2a2a;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill-progress {
+  height: 100%;
+  background: linear-gradient(267deg, #da7c25, #b923e1);
+  border-radius: 10px;
+}
+
+.skill-percent {
+  width: 45px;
+  font-size: 0.9rem;
+  text-align: right;
+  color: #ffffff;
+}
