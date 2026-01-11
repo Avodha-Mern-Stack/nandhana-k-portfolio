@@ -1,6 +1,6 @@
 import project7_img from '../assets/car_rental.jpg';
 import project8_img from '../assets/glamengrace.png';
-import project9_img from '../assets/Swiggy.png';
+import project9_img from '../assets/swiggy.png';
 import project10_img from '../assets/books_kart.jpg';
 import project11_img from '../assets/task.png';
 
