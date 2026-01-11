@@ -1,5 +1,5 @@
 import React from 'react';
-import './services.css';
+import './Services.css';
 
 // Dummy service data (replace with actual data or import it)
 const Services_Data = [
